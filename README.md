@@ -1,2 +1,2 @@
-# curso-angular
-Repositorio personal para seguir el curso sobre Angular.
+# Curso introductorio a Angular
+Repositorio personal para aprender Angular
