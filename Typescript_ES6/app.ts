@@ -1,9 +1,19 @@
-function  saludar(nombre:string) {
-    console.log("Hola "+nombre.toUpperCase());
+let mensaje = "hola";
+const OPCIONES = "todas";
+if(true){
+  let mensaje = "adios";
 }
 
-var wolverine = {
-  nombre: "Logan"
+if(true){
+  const OPCIONES = "ninguna";
 }
 
-saludar(wolverine.nombre);
+console.log(mensaje);
+
+
+let nombre:string = "123";
+let numero:number;
+let booleano:boolean;
+let cualquiera:any; //puede ser de cualquier tipo
+
+let hoy:Date = new Date();
