@@ -18,10 +18,15 @@ var apellidos = "Perez";
 var edad = 32;
 var texto = "Hola " + nombre_persona + " " + apellidos + " (" + edad + ")";
 console.log(texto);
-function activar(quien, objeto) {
+function activar(quien, objeto, momento) {
     if (objeto === void 0) { objeto = "batiseñal"; }
     var mensaje;
-    mensaje = quien + " activ\u00F3 la " + objeto;
+    if (momento) {
+        mensaje = quien + " activ\u00F3 la " + objeto + " en la " + momento;
+    }
+    else {
+        mensaje = quien + " activ\u00F3 la " + objeto;
+    }
     console.log(mensaje);
 }
 activar("Gordon");
