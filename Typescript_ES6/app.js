@@ -13,3 +13,15 @@ var numero;
 var booleano;
 var cualquiera; //puede ser de cualquier tipo
 var hoy = new Date();
+var nombre_persona = "Pepe";
+var apellidos = "Perez";
+var edad = 32;
+var texto = "Hola " + nombre_persona + " " + apellidos + " (" + edad + ")";
+console.log(texto);
+function activar(quien, objeto) {
+    if (objeto === void 0) { objeto = "batiseñal"; }
+    var mensaje;
+    mensaje = quien + " activ\u00F3 la " + objeto;
+    console.log(mensaje);
+}
+activar("Gordon");
