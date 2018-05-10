@@ -26,9 +26,11 @@ export class AppComponent {
 
   promesa = new Promise((resolve, reject) => {
     setTimeout(()=>resolve("Llego el dato"), 3500);
-  }
-
-  ));
+  });
 
   fecha = new Date();
+
+  video = "tgbNymZ7vqY";
+
+  activar:boolean = true;
 }
